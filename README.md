@@ -1,7 +1,5 @@
 # Teste Fastypay Brasil
 
-<img src="./logo.svg">
-
 Aplicação web completa que permita aos usuários criar e
 gerenciar suas despesas pessoais. A aplicação deverá ser desenvolvida utilizando as
 tecnologias especificadas abaixo. A aplicação deve incluir autenticação de usuários,
