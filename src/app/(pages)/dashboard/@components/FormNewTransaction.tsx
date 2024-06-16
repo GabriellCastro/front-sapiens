@@ -99,7 +99,10 @@ export const FormNewTransaction: FC<TransactionProps> = ({ close, mutate }) => {
         />
         <Input type="date" name="date" />
         <select
-          className="h-full w-full border-none mt-6 p-4"
+          className="
+          h-full w-full border-none mt-6 p-4
+          rounded-md bg-gray-100 text-gray-500 font-medium
+          focus:outline-none focus:ring-2 focus:ring-[#7C3AED]"
           onChange={(e) => setCategory(e.target.value)}
         >
           {categoryOptions.map((option) => (
