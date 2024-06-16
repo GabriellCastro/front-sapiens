@@ -135,8 +135,7 @@ export const FormEditAndDeleteTransaction: FC<TransactionProps> = ({
       );
       setCategory(transaction.data.category);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [transactionId]);
+  }, [transactionId, transaction, setValue]);
 
   if (isLoading && transactionId) {
     return <Loading large />;
